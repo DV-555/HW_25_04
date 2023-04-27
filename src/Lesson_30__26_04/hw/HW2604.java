@@ -1,4 +1,4 @@
-package Lesson_30__26_04.__hw;
+package Lesson_30__26_04.hw;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -9,7 +9,7 @@ import java.util.Scanner;
 //(зима, лето, весна, осень) и укажет, к какому именно времени года относится выбранный месяц.
 
 //---------------------------------------------------------------------------------------------
-public class Task2MonthsEnum {
+public class HW2604 {
 
   private enum Month {
     JANUARY, // 0
