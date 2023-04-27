@@ -27,7 +27,7 @@ public class HW_25_04_new {
     if (number == 0) {                          // вывод знака нуль, в случае input 0
       return "0";
     }
-    StringBuilder binStr = new StringBuilder(); // Создание и провозглашение пустой строки
+    StringBuilder binStr = new StringBuilder(); // Создание строки для бинарного числа 
 
     while (number != 0) {                       // До тех пор, пока число отлично от нуля
       binStr.insert(0, number % RADIX);  // подтягиваем остаток от в строку и склеиваем
